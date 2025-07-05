@@ -3,9 +3,8 @@ import React from 'react';
 export default function Header() {
   return (
     <div>
-      {/* Header */}
       <div className="rounded-3xl p-6 bg-blue-400 flex flex-col shadow-md items-center justify-center">
-        <h1 className="text-2xl font-bold flex items-center gap-2">
+        <h1 className="text-3xl font-bold flex items-center gap-2">
           PetCare Pro
         </h1>
         <p className="text-sm mt-2">愛するペットの健康を記録しましょう</p>
